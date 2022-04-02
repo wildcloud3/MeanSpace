@@ -14,4 +14,5 @@ jobs:
         TARGET_REPO: wildcloud3/wildcloud3.github.io
         TARGET_BRANCH: master
         BUILD_SCRIPT: yarn && yarn run docs:build
+        CNAME: mean.space
         BUILD_DIR: docs/.vuepress/dist/
