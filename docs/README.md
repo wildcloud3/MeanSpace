@@ -1,5 +1,7 @@
 ---
 home: true
+
+title: MeanSpace
 heroText: Mean Space
 actionText: Hello world ->
 features:
