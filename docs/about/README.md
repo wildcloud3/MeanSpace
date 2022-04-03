@@ -1,1 +1,5 @@
-placeholder
+---
+title: 关于自己
+---
+
+1. [个人认知](/about/个人认知.md)

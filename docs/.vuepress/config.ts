@@ -20,7 +20,21 @@ export default defineHopeConfig({
       { text: 'About', link: '/about/'},
     ],
     sidebar: {
-      "/reading/": "structure"
+      "/reading/": "structure",
+      "/coding/": "structure",
+      "/science/": "structure"
+      },
+      iconPrefix: "icon-",
+    plugins: {
+      mdEnhance: {
+        tex: true,
+        mermaid: true
+      }
     }
-  }
+  },
+
+  // head
+  head: [[
+    "link", { rel: "stylesheet", href: "//at.alicdn.com/t/font_3301431_8n341ft9wlf.css", }
+  ]]
 })
