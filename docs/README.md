@@ -13,7 +13,6 @@ features:
     details: 多读多记，读一点是一点
     link: /reading/
 
-footer: MIT Licensed
 ---
 
 ## 题记

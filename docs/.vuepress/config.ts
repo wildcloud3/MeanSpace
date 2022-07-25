@@ -23,8 +23,10 @@ export default defineHopeConfig({
       "/reading/": "structure",
       "/coding/": "structure",
       "/science/": "structure"
-      },
-      iconPrefix: "icon-",
+    },
+    displayFooter: true,
+    footer: '<a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" rel="noopener" target="_blank">沪ICP备20004238号-1</a>',
+    iconPrefix: "icon-",
     plugins: {
       mdEnhance: {
         tex: true,
